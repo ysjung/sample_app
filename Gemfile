@@ -24,10 +24,15 @@ gem 'jquery-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
+group :development do
+	gem 'rspec-rails'
+end
+
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
   # Pretty printed test output
-  gem 'turn', :require => false
+  gem 'rspec'
+  gem 'webrat'
 end
