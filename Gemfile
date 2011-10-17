@@ -33,6 +33,7 @@ end
 
 group :test do
   # Pretty printed test output
-  gem 'rspec'
+  gem 'rspec', '2.6.0'
   gem 'webrat'
+	gem 'spork'
 end
